@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: SYSTEM
+    password: Ksijb0109!  
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  application:
+    name: gestion-enrolamiento
+    
+server:
+  port : 8082
+
+custom:
+  descApi: Administración de Datos de la Solicitud
+  basePackage: com.bolivar.solicitud.controller
+  tituloApi: Servicio Atómico Administración de Solicitudes
+  versionApi: 1.0
+  terminosServicio: Terminos de Servicio
+  devEmail: juan.munoz.cabrera@segurosbolivar.com
+  devSite: github.com/orgs/segurosbolivar
+  devUser: juan107
+  licenciaName: https://www.apache.org/licenses/LICENSE-2.0
+  licenciaVersion: Apache License Version 2.0
