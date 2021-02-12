@@ -6,6 +6,10 @@ spring:
     driver-class-name: oracle.jdbc.driver.OracleDriver
   application:
     name: gestion-enrolamiento
+
+springdoc:
+  api-docs:
+    path: /srv-gestion-solicitud-openapi
     
 server:
   port : 8082
